@@ -40,5 +40,6 @@ public class HorseData
         System.out.println("Average weight: " + sumWeight/i);
         System.out.println("Average age: " + sumAge/i);
         System.out.println("Total hay needed: " + totalHay);
+        sc.close();;
     }
 }
