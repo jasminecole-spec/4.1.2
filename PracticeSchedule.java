@@ -14,9 +14,11 @@ public class PracticeSchedule
       String str;
       String[] tokens;
       
+      sc1.nextLine();
       while (sc1.hasNext()) {
-        str = sc1.next();
-        System.out.println(str);
+        str = sc1.nextLine();
+        tokens =  str.split(",");
+        System.out.println(tokens[0] + " I practice " + tokens[1]  + " hours.");
       }
       
       sc1.close();
